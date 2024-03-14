@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js --watch",
+    "start": "NEXT_PUBLIC_HYGRAPH_ENDPOINT node server.js --watch",
     "export": "npm run build && next export",
     "lint": "next lint"
   },
