@@ -13,7 +13,7 @@ export default function Content({ blogs }: ContentProps) {
   const [copied, setCopied] = useState(false)
   const router = useRouter()
   const copyToClipboard = async () => {
-    console.log(blogs);
+    // console.log(blogs);
 
     try {
       const urlToCopy = window.location.href;
